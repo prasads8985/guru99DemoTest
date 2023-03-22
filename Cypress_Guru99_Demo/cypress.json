@@ -1,0 +1,13 @@
+{
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "watchForFileChanges": false,
+  "incidents":"Five",
+  "registration":"Done",
+  "mileage":"50KMPL",
+  "value":"100000",
+  "stateofpolicy":"2015"
+ 
+}
+
+

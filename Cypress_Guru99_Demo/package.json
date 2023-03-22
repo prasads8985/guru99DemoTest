@@ -1,0 +1,23 @@
+{
+  "name": "cypress-cucumber-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Siva Prasad",
+  "dependencies": {
+    "cypress": "^4.9.0",
+    "cypress-cucumber-preprocessor": "^2.5.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/step_definitions/**"
+  }
+}
